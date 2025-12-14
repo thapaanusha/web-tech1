@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Admission Form<br>
+        Username :<input type="text" placeholder="enter your name"><br>
+        PhoneNumber:<input type="text"><br>
+        Password :<input type="text" required placeholder="enter Number"><br>
+        faculty:<input type="text"><br>
+        EmailAddress:<input type="text"><br>
+        <label>Gender:</label><br>
+         <input type="radio" name="gender" value="male"> Male<br>
+         <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br>
+        <div>
+            <label for="dob">Date of Birth *</label>
+            <input id="dob" name="dob" type="date" required>
+            </div>
+            <div>
+                <label for="percentage">Percentage / GPA</label>
+                <input id="percentage" name="percentage" type="text" placeholder="e.g. 78.5 or 3.6">
+                </div>
+                <div>
+                <label for="photo">Upload Photo (optional)</label>
+                <input id="photo" name="photo" type="file" accept="image/*" class="file-input">
+                </div>
+                <div>
+<label for="prevEducation">Previous Education *</label>
+<select id="prevEducation" name="prevEducation" required>
+<option value="">-- Highest qualification --</option>
+<option>High School / 10+2</option>
+<option>Diploma</option>
+<option>Bachelor's Degree</option>
+<option>Master's Degree</option>
+</select>
+</div>
+<div class="full">
+<label>
+<input type="checkbox" id="terms" required> I declare that the information provided is true and correct. *
+</label>
+<p class="note">By submitting, you agree to the college's admission rules and privacy policy.</p>
+</div>
+</div>
+<footer>
+<button type="reset" class="btn btn-ghost">Reset</button>
+<button type="submit" class="btn btn-primary">Submit Application</button>
+</footer>
+</form>
+</div>
+
